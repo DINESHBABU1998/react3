@@ -1,0 +1,47 @@
+body{
+    background-image: linear-gradient(lightblue,pink,lightyellow);
+    background-repeat: no-repeat;
+    height: 96vh;
+}
+label{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+input{
+    color: darkviolet;
+    background-color: aqua;
+    font-size: 20px;
+    height: 50px;
+    width:200px;
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+button{
+    color: black;
+    background-color: aqua;
+    font-size: 20px;
+    height: 50px;
+    width:200px;
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+.result{
+    margin: 50px;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: rgb(246, 168, 168);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+.data{
+    width: 500px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    background-color:aqua;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
